@@ -404,3 +404,27 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 	updateReminders();
 });
+
+/**
+ * Set Inbox Type (Priority or Classic)
+ * 1. Gets the window.GLOBALS variable and determines if the inbox mode is Priority or Default
+ * 2. Sets the data-inbox-type attribute on <head> for use in CSS
+ *
+ * @TODO: gmailGlobals does not update on XHR request
+ * @TODO: gmailGlobals is cached until a hard page refresh
+ */
+document.addEventListener("DOMContentLoaded", function (event) {
+	new ExtractPageVariable('GLOBALS').data.then(data => {
+		const globals = data.GLOBALS;
+		if (globals.length) {
+			if (globals.includes("PRIORITY")) {
+				document.body.setAttribute('data-inbox-type', 'priority');
+			// removed this because Gmail changes the "default" attribute value without notice
+			//} else if (globals.includes("CLASSIC") || globals.includes("SECTIONED")) {
+			//	document.head.setAttribute('data-inbox-type', 'default');
+			} else {
+				document.body.setAttribute('data-inbox-type', 'other');
+			}
+		}
+	});
+});
