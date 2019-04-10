@@ -24,6 +24,7 @@
         "https://mail.google.com/*"
       ],
       "js": [
+        "src/ExtractPageVariable.js",
         "src/script.js"
       ],
       "run_at": "document_start"
