@@ -698,13 +698,13 @@ li.bqX.brv {
 	margin: 0 5px;
 }
 
-/* Inbox: hide the starred heading */
-.nH.Wg.aAD.aAr {
+/* Inbox: hide the starred heading, unless priority inbox */
+body:not([data-inbox-type="priority"]) .nH.Wg.aAD.aAr {
 	display: none;
 }
 
-/* Inbox: hide the everything else heading */
-.nH.Wg.aAr {
+/* Inbox: hide the everything else heading, unless priority inbox */
+body:not([data-inbox-type="priority"]) .nH.Wg.aAr {
 	display: none;
 }
 
