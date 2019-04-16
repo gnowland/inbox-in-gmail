@@ -701,12 +701,12 @@ li.bqX.brv {
 
 /* Inbox: hide the starred heading */
 .nH.Wg.aAD.aAr {
-	display: none;
+	/* display: none; */
 }
 
 /* Inbox: hide the everything else heading */
 .nH.Wg.aAr {
-	display: none;
+	/* display: none; */
 }
 
 /* Inbox: date groupings */
