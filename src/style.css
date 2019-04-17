@@ -995,3 +995,8 @@ div[aria-label="Hangouts"][role="complementary"] {
 .iw > .qu > .go {
 	display: none;
 }
+
+/* Spacing on bottom of email list */
+.BltHke.oy8Mbf {
+	margin-bottom: 40px;
+}
