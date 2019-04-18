@@ -456,3 +456,21 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 	updateReminders();
 });
+
+// Label Colors
+// monitor DOM mutation
+
+const labelColors = function () {
+	const category = document.getElementsByClassName("qj");
+	if (category.length > 0) {
+		for (let value of category) {
+			value.style.backgroundColor = value.style.borderColor.length > 0 ? value.style.borderColor : "black";
+		}
+	} else {
+	setTimeout(labelColors, 100);
+	}
+}
+
+document.addEventListener("DOMContentLoaded", function (event) {
+	labelColors();
+});
