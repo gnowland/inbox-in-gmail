@@ -90,94 +90,156 @@ td.apU.xY {
 
 /* Not starred image */
 td.apU.xY .T-KT::before {
-	background-image: url('https://i.ibb.co/L6F6nTk/btw-ic-pin-black-24dp-2x.png') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/btw_ic_pin_black_24dp_2x.png') !important;
 	background-size: 24px !important;
 }
 
 /* Starred menu item */
 .aHS-bnw .qj {
-	background-image: url('https://i.ibb.co/L6F6nTk/btw-ic-pin-black-24dp-2x.png') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/btw_ic_pin_black_24dp_2x.png') !important;
 	background-size: 24px !important;
 }
 
 /* Starred */
 td.apU.xY .T-KT.xl::before {
-	background-image: url('https://i.ibb.co/L6F6nTk/btw-ic-pin-black-24dp-2x.png') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/btw_ic_pin_black_24dp_2x.png') !important;
 	background-size: 24px !important;
 }
 
-
 /* Starred - Yellow Star */
 td.apU.xY .T-KT.T-KT-Jp::before {
-	background-image: url('https://i.ibb.co/42t3zLT/ic-mark-pinned-yellow-24dp-r4-2x.png') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic-mark-pinned-yellow-24dp-r4-2x.png') !important;
 	background-size: 24px !important;
 	opacity: 1;
 }
 
 /* Starred - Orange Star */
 td.apU.xY .T-KT.xl::before {
-	background-image: url('https://i.ibb.co/5MtMBt5/ic-mark-pinned-orange-24dp-r4-2x.png') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic-mark-pinned-orange-24dp-r4-2x.png') !important;
 	background-size: 24px !important;
 }
 
 /* Starred - Red Star */
 td.apU.xY .T-KT.xn::before {
-	background-image: url('https://i.ibb.co/60stYpG/ic-mark-pinned-red-24dp-r4-2x.png') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic-mark-pinned-red-24dp-r4-2x.png') !important;
 	background-size: 24px !important;
 }
 
 /* Starred - Purple Star */
 td.apU.xY .T-KT.xm::before {
-	background-image: url('https://i.ibb.co/f13zypb/ic-mark-pinned-purple-24dp-r4-2x.png') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic-mark-pinned-purple-24dp-r4-2x.png') !important;
 	background-size: 24px !important;
 }
 
 /* Starred - Blue Star */
 td.apU.xY .T-KT.xj::before {
-	background-image: url('https://i.ibb.co/p3Hc9HV/ic-mark-pinned-blue-24dp-r4-2x.png') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic-mark-pinned-blue-24dp-r4-2x.png') !important;
 	background-size: 24px !important;
 }
 
 /* Starred - Green Star */
 td.apU.xY .T-KT.xk::before {
-	background-image: url('https://i.ibb.co/BcktQdk/ic-mark-pinned-green-24dp-r4-2x.png') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic-mark-pinned-green-24dp-r4-2x.png') !important;
 	background-size: 24px !important;
 }
 
 /* Starred - Red Bang */
 td.apU.xY .T-KT.xg::before {
-	background-image: url('https://mail.google.com/mail/u/0/images/cleardot.gif') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/cleardot.gif') !important;
 	background-size: 1px !important;
 }
 
 /* Starred - Orange Guillimet */
 td.apU.xY .T-KT.xe::before {
-	background-image: url('https://mail.google.com/mail/u/0/images/cleardot.gif') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/cleardot.gif') !important;
 	background-size: 1px !important;
 }
 
 /* Starred - Yellow Bang */
 td.apU.xY .T-KT.xh::before {
-	background-image: url('https://mail.google.com/mail/u/0/images/cleardot.gif') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/cleardot.gif') !important;
 	background-size: 1px !important;
 }
 
 /* Starred - Green Check */
 td.apU.xY .T-KT.xd::before {
-	background-image: url('https://mail.google.com/mail/u/0/images/cleardot.gif') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/cleardot.gif') !important;
 	background-size: 1px !important;
 }
 
 /* Starred - Blue Info */
 td.apU.xY .T-KT.xc::before {
-	background-image: url('https://mail.google.com/mail/u/0/images/cleardot.gif') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/cleardot.gif') !important;
 	background-size: 1px !important;
 }
 
 /* Starred - Purple Question */
 td.apU.xY .T-KT.xf::before {
-	background-image: url('https://mail.google.com/mail/u/0/images/cleardot.gif') !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/cleardot.gif') !important;
 	background-size: 1px !important;
+}
+
+@-moz-document url-prefix() {
+	/* Not starred image */
+	td.apU.xY .T-KT::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/btw_ic_pin_black_24dp_2x.png') !important;
+	}
+	/* Starred menu item */
+	.aHS-bnw .qj {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/btw_ic_pin_black_24dp_2x.png') !important;
+	}
+	/* Starred */
+	td.apU.xY .T-KT.xl::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/btw_ic_pin_black_24dp_2x.png') !important;
+	}
+	/* Starred - Yellow Star */
+	td.apU.xY .T-KT.T-KT-Jp::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/ic-mark-pinned-yellow-24dp-r4-2x.png') !important;
+	}
+	/* Starred - Orange Star */
+	td.apU.xY .T-KT.xl::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/ic-mark-pinned-orange-24dp-r4-2x.png') !important;
+	}
+	/* Starred - Red Star */
+	td.apU.xY .T-KT.xn::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/ic-mark-pinned-red-24dp-r4-2x.png') !important;
+	}
+	/* Starred - Purple Star */
+	td.apU.xY .T-KT.xm::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/ic-mark-pinned-purple-24dp-r4-2x.png') !important;
+	}
+	/* Starred - Blue Star */
+	td.apU.xY .T-KT.xj::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/ic-mark-pinned-blue-24dp-r4-2x.png') !important;
+	}
+	/* Starred - Green Star */
+	td.apU.xY .T-KT.xk::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/ic-mark-pinned-green-24dp-r4-2x.png') !important;
+	}
+	/* Starred - Red Bang */
+	td.apU.xY .T-KT.xg::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/cleardot.gif') !important;
+	}
+	/* Starred - Orange Guillimet */
+	td.apU.xY .T-KT.xe::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/cleardot.gif') !important;
+	}
+	/* Starred - Yellow Bang */
+	td.apU.xY .T-KT.xh::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/cleardot.gif') !important;
+	}
+	/* Starred - Green Check */
+	td.apU.xY .T-KT.xd::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/cleardot.gif') !important;
+	}
+	/* Starred - Blue Info */
+	td.apU.xY .T-KT.xc::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/cleardot.gif') !important;
+	}
+	/* Starred - Purple Question */
+	td.apU.xY .T-KT.xf::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/cleardot.gif') !important;
+	}
 }
 
 /* Unread email */
@@ -203,23 +265,9 @@ td.apU.xY .T-KT.xf::before {
 	background: #FFF !important;
 }
 
-/* Compose email button */
-.T-I.J-J5-Ji.T-I-KE.L3 {
-	position: fixed;
-	right: 40px;
-	bottom: 20px;
-	z-index: 1000;
-	width: 56px;
-	height: 56px;
-	border-radius: 50%;
-	padding: 0;
-	background: #d23f31;
-	overflow: hidden;
-}
-
 /* Inbox Email is Empty show Sun */
 .ar4.z .TD > .TC {
-	background-image: url('//ssl.gstatic.com/bt/C3341AA7A1A076756462EE2E5CD71C11/zero/2x/ic_zero_inbox_2x.png');
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic_zero_inbox_2x.png') !important;
 	background-repeat: no-repeat;
 	background-position: center;
 	padding-top: 30px;
@@ -229,10 +277,15 @@ td.apU.xY .T-KT.xf::before {
 	color: transparent;
 	font-size: 14px;
 }
+@-moz-document url-prefix() {
+	.ar4.z .TD > .TC {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/ic_zero_inbox_2x.png') !important;
+	}
+}
 
 /* Fix for weird white space */
 .eb.TD {
-	display:none;
+	display: none;
 }
 
 /* Fix padding on search */
@@ -276,20 +329,22 @@ td.apU.xY .T-KT.xf::before {
 	background-color: rgba(0,0,0,.05) !important;
 }
 
-/* Left sidebar collapsed
+/* Left sidebar collapsed */
 .aeN.bhZ {
-	display: none !important;
-}*/
-
-/* Compose email image */
-.z0>.L3::before {
-	background-image: url('https://i.ibb.co/y09xqPH/btw-ic-speeddial-white-24dp-2x.png') !important;
-	background-size: 24px !important;
+	transform: translateX(-80px) !important;
+	transition: transform 0.2s ease;
 }
 
-.z0>.L3:hover::before {
-	background-image: url('https://i.ibb.co/x6n7nSQ/btw-ic-speeddial-compose-white-24dp-2x.png') !important;
-	background-size: 24px !important;
+/* Done icon (green checkmark) */
+.byl > .TK:nth-of-type(2) > .aim:nth-of-type(3) .qj {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic_done_clr_24dp_r4_2x.png') !important;
+}
+
+@-moz-document url-prefix() {
+	/* Done icon (green checkmark) */
+	.byl > .TK:nth-of-type(2) > .aim:nth-of-type(3) .qj {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/ic_done_clr_24dp_r4_2x.png') !important;
+	}
 }
 
 /* Compose email old place */
@@ -366,11 +421,11 @@ td.apU.xY .T-KT.xf::before {
 }
 /* Inbox */
 .aHS-bnt .qj {
-	background-image: url("https://i.ibb.co/fn7MyRG/inbox-googblue-24dp.png") !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/inbox_googblue_24dp.png') !important;
 }
 /* Dropdown arrow */
 .aHS-bnt .afM {
-	background-image: url("https://i.ibb.co/R7pYSLZ/arrow-drop-down-black-20dp.png") !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/arrow_drop_down_black_20dp.png') !important;
 }
 /* Starred, Important, Chats */
 .aHS-bnw .qr,
@@ -380,47 +435,94 @@ td.apU.xY .T-KT.xf::before {
 }
 /* Starred */
 .aHS-bnw .qj {
-	background-image: url("https://i.ibb.co/mXkG5ff/grade-black-24dp.png") !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/grade_black_24dp.png') !important;
 }
 /* Important */
 .aHS-bns .qj {
-	background-image: url("https://i.ibb.co/rw73YY4/label-important-black-24dp.png") !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/label_important_black_24dp.png') !important;
 }
 /* Chats */
 .aHS-aHP .qj {
-	background-image: url("https://i.ibb.co/RHqK4MB/hangout-black-24dp.png") !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/hangout_black_24dp.png') !important;
 }
 /* Snoozed */
 .aHS-bu1 .qj {
-	background-image: url("https://i.ibb.co/KL9Wm2J/ic-upcoming-clr-24dp-r5-2x.png") !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic_upcoming_clr_24dp_r5_2x.png') !important;
 }
 /* Sent */
 .aHS-bnu .qj {
-	background-image: url("https://i.ibb.co/0fYwQYN/ic-sent-right-g60-24dp-r1-2x.png") !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic_sent_right_g60_24dp_r1_2x.png') !important;
 }
 /* Drafts */
 .aHS-bnq .qj {
-	background-image: url("https://i.ibb.co/St5mfzv/ic-draft-g60-24dp-r2-2x.png") !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic_draft_g60_24dp_r2_2x.png') !important;
 }
 /* Trash */
 .aHS-bnx .qj {
-	background-image: url("https://i.ibb.co/RQp6mnM/ic-trash-g60-24dp-r2-2x.png") !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic_trash_g60_24dp_r2_2x.png') !important;
 }
 /* Category */
 .aHS-bnr .qj {
-	background-image: url("https://i.ibb.co/wCh8tQ9/ic-custom-cluster-24px-g60-r3-2x.png") !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic_custom-cluster_24px_g60_r3_2x.png') !important;
 	background-repeat: repeat-x;
 	padding: 12px;
 	width: 48px;
-	length: 48px;
 	border: 3px solid #F2F2F2;
   	box-sizing: border-box;
 	border-radius: 30%;
 }
 /* Spam */
 .aHS-bnv .qj {
-	background-image: url("https://i.ibb.co/CJm8B4X/ic-spam-g60-24dp-r2-2x.png") !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/ic_spam_g60_24dp_r2_2x.png') !important;
 }
+
+@-moz-document url-prefix() {
+	/* Inbox */
+	.aHS-bnt .qj {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/inbox_googblue_24dp.png') !important;
+	}
+	/* Dropdown arrow */
+	.aHS-bnt .afM {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/arrow_drop_down_black_20dp.png') !important;
+	}
+	/* Starred */
+	.aHS-bnw .qj {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/grade_black_24dp.png') !important;
+	}
+	/* Important */
+	.aHS-bns .qj {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/label_important_black_24dp.png') !important;
+	}
+	/* Chats */
+	.aHS-aHP .qj {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/hangout_black_24dp.png') !important;
+	}
+	/* Snoozed */
+	.aHS-bu1 .qj {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/ic_upcoming_clr_24dp_r5_2x.png') !important;
+	}
+	/* Sent */
+	.aHS-bnu .qj {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/ic_sent_right_g60_24dp_r1_2x.png') !important;
+	}
+	/* Drafts */
+	.aHS-bnq .qj {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/ic_draft_g60_24dp_r2_2x.png') !important;
+	}
+	/* Trash */
+	.aHS-bnx .qj {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/ic_trash_g60_24dp_r2_2x.png') !important;
+	}
+	/* Category */
+	.aHS-bnr .qj {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/ic_custom-cluster_24px_g60_r3_2x.png') !important;
+	}
+	/* Spam */
+	.aHS-bnv .qj {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/ic_spam_g60_24dp_r2_2x.png') !important;
+	}
+}
+
 .TO.nZ .n0 {
 	color: #212121 !important;
 	outline: none;
@@ -527,7 +629,22 @@ button.gb_lf {
 **
 */
 
+/* Inbox tabs align center */
+.aAA {
+	max-width: 1200px !important;
+}
 
+.aKk>tbody, .aAA, .aRz.J-KU {
+	justify-content: center !important;
+}
+
+.J-KU-Jg-K9.aAA > .aRz > .aAy {
+	justify-content: center;
+}
+
+.aAy > .aKp {
+	margin-left: 0;
+}
 
 /* behind emails */
 .AO, .Tm.aeJ,
@@ -624,55 +741,124 @@ header form input {
 	color: white !important;
 }
 
-/* Add reminder */
-.add-reminder {
+/* Add reminder button */
+.add-reminder,
+/* Floating compose button */
+.floating-compose {
 	user-select: none;
 	position: fixed;
-	right: 48px;
-	bottom: 90px;
 	z-index: 1000;
-	width: 40px;
-	height: 40px;
 	border-radius: 50%;
 	padding: 0;
-	background: #4285f4;
 	overflow: hidden;
 	box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
 	cursor: pointer;
 }
 
-/* Add reminder image */
-.add-reminder::before {
-	background-image: url("https://i.ibb.co/ZXjKTgc/btw-ic-speeddial-reminders-white-24dp-2x.png") !important;
+.add-reminder:hover,
+.floating-compose:hover {
+	box-shadow: 0 1px 3px 0 rgba(60,64,67,0.302), 0 4px 8px 3px rgba(60,64,67,0.149);
+}
+
+/* Add reminder button */
+.add-reminder {
+	right: 48px;
+	bottom: 90px;
+	width: 40px;
+	height: 40px;
+	background: #4285f4;
+}
+
+/* Add reminder button image */
+.add-reminder::before,
+/* Compose button image */
+.floating-compose::before {
 	background-size: 24px !important;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 32px;
 	content: '';
 	display: block;
+}
+
+/* Add reminder button image */
+.add-reminder::before {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/btw_ic_speeddial_reminders_white_24dp_2x.png') !important;
 	height: 40px;
 	width: 40px;
 }
 
-.add-reminder:hover {
-	box-shadow: 0 1px 3px 0 rgba(60,64,67,0.302), 0 4px 8px 3px rgba(60,64,67,0.149);
+/* Floating compose button */
+.floating-compose {
+	right: 40px;
+	bottom: 20px;
+	width: 56px;
+	height: 56px;
+	background: #d23f31;
+}
+
+/* Compose button image */
+.floating-compose::before {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/btw_ic_speeddial_white_24dp_2x.png') !important;
+	height: 56px;
+	width: 56px;
+}
+.floating-compose:hover::before {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/btw_ic_speeddial_compose_white_24dp_2x.png') !important;
+}
+
+/* Hide old compose button */
+.T-I.J-J5-Ji.T-I-KE.L3 {
+	display: none;
 }
 
 /* Archive button (inbox email, opened email) */
 .brq, .ar8 {
-	background-image: url("https://i.ibb.co/yXwztKr/btw-ic-done-black-24dp-2x.png") !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/btw_ic_done_black_24dp_2x.png') !important;
 	background-size: 24px !important;
 }
 
 /* Snooze button (inbox email, opened email) */
 .brv, .brW {
-	background-image: url("https://i.ibb.co/3ptb3Tk/btw-ic-snooze-black-24dp-2x.png") !important;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/btw_ic_snooze_black_24dp_2x.png') !important;
 	background-size: 24px !important;
 }
 
-/* Snooze button */
-li.bqX.brv {
-	margin-right: 20px;
+@-moz-document url-prefix() {
+	/* Add reminder button image */
+	.add-reminder::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/btw_ic_speeddial_reminders_white_24dp_2x.png') !important
+	}
+	/* Compose email image */
+	.floating-compose::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/btw_ic_speeddial_white_24dp_2x.png') !important;
+	}
+	.floating-compose:hover::before {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/btw_ic_speeddial_compose_white_24dp_2x.png') !important;
+	}
+	/* Archive button (inbox email, opened email) */
+	.brq, .ar8 {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/btw_ic_done_black_24dp_2x.png') !important;
+	}
+	/* Snooze button (inbox email, opened email) */
+	.brv, .brW {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/btw_ic_snooze_black_24dp_2x.png') !important;
+	}
+}
+
+/* Action buttons on email row */
+.bqX {
+	margin: 0 10px !important;
+}
+
+/* Done button on email row */
+.bqX.brq {
+	order: 3;
+	margin-right: 22px !important;
+}
+
+/* Delete button on email row */
+.bqX.bru {
+	order: 2;
 }
 
 /* Opened email */
@@ -796,7 +982,16 @@ li.bqX.brv {
 }
 
 /* Hides the checkbox when not checked */
-.zA .oZ-x3.xY .T-Jo {
+.show-avatar-enabled .zA .oZ-x3.xY .T-Jo {
+	display: none;
+}
+
+.zA .oZ-jc.T-Jo.J-J5-Ji {
+	margin-left: -4px;
+}
+
+/* hide the drag icon next to checkbox */
+.aqw>td.oZ-x3:before {
 	display: none;
 }
 
@@ -898,9 +1093,19 @@ li.bqX.brv {
 	height: 80px;
 	width: 100px;
 	background-position: center;
-	background-image: url('//i.ibb.co/2kB7DZk/calendar-event-attachment.png');
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/calendar_event_attachment.png') !important;
 	background-size: 200%;
 	margin-right: 16px;
+}
+@-moz-document url-prefix() {
+	.calendar-image {
+		background-image: url('moz-extension://__MSG_@@extension_id__/images/calendar_event_attachment.png') !important;
+	}
+}
+
+/* Remove gmail calendar icon */
+.yf img.xL {
+	display: none;
 }
 
 /* Labels inline in email list */
@@ -915,11 +1120,14 @@ li.bqX.brv {
 
 /* Name avatar */
 .avatar {
-	color: #fff;
+	background: url('chrome-extension://__MSG_@@extension_id__/images/ic_reminder_blue_24dp_r2_2x.png');
+	color: rgba(255, 255, 255, 0.65);
 	border-radius: 50%;
-	font-weight: 300;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	position: relative;
-	left: -10px;
+	left: -6px;
 	flex: 32px 0 0;
 	width: 32px;
 	height: 32px;
@@ -928,6 +1136,11 @@ li.bqX.brv {
 	background-size: 75% 75% !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
+}
+@-moz-document url-prefix() {
+	.avatar {
+		background: url('moz-extension://__MSG_@@extension_id__/images/ic_reminder_blue_24dp_r2_2x.png');
+	}
 }
 
 .zA:hover .avatar {
@@ -948,24 +1161,6 @@ li.bqX.brv {
 	visibility: hidden;
 }
 
-/* Firefox-specific fixes */
-@-moz-document url-prefix() {
-	/* overflow fix emails list */
-	.AO {
-		overflow-y: auto;
-	}
-
-	/* overflow fix left sidebar */
-	.oy8Mbf {
-		overflow-y: hidden;
-	}
-
-	/* overflow fix right sidebar */
-	.brC-aT5-aOt-bsf-Jw, .brC-bsf-aT5-aOt {
-		overflow-y: hidden;
-	}
-}
-
 /* Right side Hangouts */
 div[aria-label="Hangouts"][role="complementary"] {
 	background-color: rgb(242, 242, 242) !important;
@@ -975,9 +1170,24 @@ div[aria-label="Hangouts"][role="complementary"] {
 	background-color: #e5e5e5 !important;
 }
 
-/* Email subject padding */
+/* Subject padding in opened email */
 .if > .byY, .iC .byY {
 	padding: 20px 4px 8px 20px !important;
+}
+
+/* Subject padding in email list */
+.zA > .yX {
+	padding: 0 15px !important;
+}
+
+/* Align the checkbox with first letter avatar */
+.zA .oZ-jc.T-Jo.J-J5-Ji {
+	margin-left: 1px;
+}
+
+/* Hide the drag icon next to checkbox */
+.aqw > td.oZ-x3:before {
+	display: none;
 }
 
 /* Hide labels next to email subject */
@@ -998,4 +1208,124 @@ div[aria-label="Hangouts"][role="complementary"] {
 /* Spacing on bottom of email list */
 .BltHke.oy8Mbf {
 	margin-bottom: 40px;
+}
+
+/* Hide inline ads/promotions */
+.aKB {
+	display: none;
+}
+
+.bundle-image {
+	margin-left: 13px;
+}
+.bundle-image img {
+	width: 28px;
+}
+
+.bundle-wrapper .label-link {
+	margin-left: 5px;
+	font-size: 13px;
+	margin-right: 32px;
+}
+.bundle-wrapper.contains-unread .label-link,
+.bundle-wrapper .bundle-senders span.strong {
+	font-weight: 700;
+}
+.bundle-wrapper:not(.contains-unread) .bundle-image img {
+	opacity: 0.6;
+}
+
+.bundle-senders {
+	color: #202124 !important;
+}
+/* Parent of .bundle-senders */
+.label-link + .xW.xY {
+	flex-grow: 1;
+	overflow: hidden;
+}
+
+.bundle-wrapper .label-link .bundle-count {
+	font-weight: 400;
+	margin-left: 5px;
+	color: gray;
+}
+
+/* Colored bundle titles for Inbox categories */
+.zA.yO[bundleLabel="Updates"] .label-link > span:not(.bundle-count) {
+	color: rgb(255, 104, 57);
+}
+.zA.yO[bundleLabel="Promotions"] .label-link > span:not(.bundle-count) {
+	color: rgb(0, 188, 212);
+}
+.zA.yO[bundleLabel="Forums"] .label-link > span:not(.bundle-count) {
+	color: rgb(63, 81, 181);
+}
+.zA.yO[bundleLabel="Social"] .label-link > span:not(.bundle-count) {
+	color: rgb(219, 68, 55);
+}
+.zA.yO[bundleLabel="Travel"] .label-link > span:not(.bundle-count),
+.zA.yO[bundleLabel="Trips"] .label-link > span:not(.bundle-count) {
+	color: rgb(156, 39, 176);
+}
+.zA.yO[bundleLabel="Finance"] .label-link > span:not(.bundle-count) {
+	color: rgb(103, 159, 56);
+}
+.zA.yO[bundleLabel="Orders"] .label-link > span:not(.bundle-count),
+.zA.yO[bundleLabel="Purchases"] .label-link > span:not(.bundle-count) {
+	color: rgb(121, 85, 72);
+}
+
+.bundled-email {
+	display: none !important;
+}
+
+/* Bundle row settings */
+.zA > span.oZ-x3 {
+	order: 0;
+}
+
+.hide-important-markers {
+	display: none !important;
+}
+
+/* Hide labels on emails when bundling is enabled */
+body.email-bundling-enabled .bundled-email .yi,
+body.email-bundling-enabled.bundle-page .nH.ar4.B .yi {
+	display: none !important;
+}
+
+/* Override narrow width class */
+.Zs .zA {
+    -webkit-flex-wrap: nowrap !important;
+	flex-wrap: nowrap !important;
+}
+.Zs .zA > .a4W {
+	margin-left: unset !important;
+}
+.Zs .a4W .xT {
+	flex-wrap: unset !important;
+}
+.Zs .yi {
+	margin-left: 0 !important;
+	max-width: unset !important;
+}
+.Zs .y2 {
+	min-width: unset !important;
+	-webkit-flex: 1 !important;
+	flex: 1 !important;
+}
+.Zs .zA > .xW {
+	-webkit-flex-basis: 1 !important;
+	flex-basis: 1 !important;
+	flex-grow: 400 !important;
+	flex-basis: 0 !important;
+}
+.Zs .y6 {
+	order: 1 !important;
+}
+.Zs .zA > .yX {
+	flex: initial !important;
+}
+.Zs .zA > .xY {
+	order: 1 !important;
 }
